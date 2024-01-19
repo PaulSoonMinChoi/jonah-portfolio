@@ -5,52 +5,6 @@ import "../../styles/homepage.css";
 import Image from "next/image";
 import Link from "next/link";
 
-const imgObj = [
-  { img: "/perfectnightv2/1.jpg" },
-  { img: "/perfectnightv2/2.jpg" },
-  { img: "/perfectnightv2/3.jpg" },
-  { img: "/perfectnightv2/4.jpg" },
-  { img: "/perfectnightv2/5.jpg" },
-  { img: "/perfectnightv2/6.jpg" },
-  { img: "/perfectnightv2/7.jpg" },
-  { img: "/perfectnightv2/8.jpg" },
-
-  { img: "/chellaig2/9.jpg" },
-  { img: "/chellaig2/10.jpg" },
-  { img: "/chellaig2/11.jpg" },
-  { img: "/chellaig2/12.jpg" },
-  { img: "/chellaig2/13.jpg" },
-  { img: "/chellaig2/14.jpg" },
-  { img: "/chellaig2/15.jpg" },
-  { img: "/chellaig2/16.jpg" },
-
-  { img: "/hyperline/1.jpg" },
-  { img: "/hyperline/2.jpg" },
-  { img: "/hyperline/3.jpg" },
-  { img: "/hyperline/4.jpg" },
-  { img: "/hyperline/5.jpg" },
-  { img: "/hyperline/6.jpg" },
-  { img: "/hyperline/7.jpg" },
-  { img: "/hyperline/8.jpg" },
-
-  { img: "/chellaig2/1.jpg" },
-  { img: "/chellaig2/2.jpg" },
-  { img: "/chellaig2/3.jpg" },
-  { img: "/chellaig2/4.jpg" },
-  { img: "/chellaig2/5.jpg" },
-  { img: "/chellaig2/6.jpg" },
-  { img: "/chellaig2/7.jpg" },
-
-  { img: "/hyperline/8.jpg" },
-  { img: "/hyperline/9.jpg" },
-  { img: "/hyperline/10.jpg" },
-  { img: "/hyperline/11.jpg" },
-  { img: "/hyperline/12.jpg" },
-  { img: "/hyperline/13.jpg" },
-  { img: "/hyperline/14.jpg" },
-  { img: "/hyperline/15.jpg" },
-];
-
 const gallery = [
   { src: "/gallerynewmain/1.jpg", speed: "slower", vid: false },
   { src: "/gallerynewmain/2.mp4", speed: "faster", vid: true },
