@@ -6,7 +6,7 @@ import Image from "next/image";
 const Contact = () => {
   return (
     <div className="contact-main-container">
-    <div className="moodboardpage-content-container">
+      <div className="moodboardpage-content-container">
         <div className="moodboardpage-header-container">
           {/* <span className="moodboardpage-header">JTPAMINTUAN</span> */}
           <Link className="header" href="/">
@@ -23,7 +23,10 @@ const Contact = () => {
       <div className="contact-container">
         <span>jonah.pamintuan@gmail.com</span>
         <span>+1 714-606-0448</span>
-        <span>instagram @jtpamintuan</span>
+        <span>
+        instagram:{' '}
+          <a style={{textDecoration: 'underline'}} href="https://www.instagram.com/jtpamintuan/?hl=en"> @jtpamintuan</a>
+        </span>
       </div>
 
       <div className="rights-text">

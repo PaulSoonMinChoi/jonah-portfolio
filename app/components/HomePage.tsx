@@ -55,8 +55,8 @@ const HomePage = () => {
             <div className={`img-wrapper ${val.speed}`} key={index}>
               <a
                 className="img-container"
-                href="/"
-                target="_blank"
+                // href="/"
+                // target="_blank"
                 rel="noopener"
               >
                 {!val.vid ? (

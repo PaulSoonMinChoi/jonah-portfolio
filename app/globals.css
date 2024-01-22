@@ -20,3 +20,30 @@ body {
   /* background-color: black; */
   overflow-x: hidden;
 }
+
+.moodboardpage-container {
+  background-color: #fff;
+  color: #131316;
+  height: 100vh;
+}
+
+.moodboardpage-content-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 300;
+}
+
+.moodboardpage-header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #131316;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header {
+  cursor: pointer;
+}
