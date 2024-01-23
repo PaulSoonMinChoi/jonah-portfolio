@@ -26,9 +26,10 @@ const gallery = [
   { src: "/gallerynewmain/22.jpg", speed: "slower slower2", vid: false },
   { src: "/gallerynewmain/18.jpg", speed: "lower", vid: false },
   { src: "/gallerynewmain/19.mp4", speed: "slower", vid: true },
-  { src: "/gallerynewmain/20.jpg", speed: "slower", vid: false },
-  { src: "/gallerynewmain/21.jpg", speed: "slower", vid: false },
-  { src: "/gallerynewmain/23.jpg", speed: "lower last", vid: false },
+  { src: "/gallerynewmain/20.jpg", speed: "lower", vid: false },
+  { src: "/gallerynewmain/21.jpg", speed: "lower", vid: false },
+  { src: "/gallerynewmain/23.mp4", speed: "slower", vid: true },
+  { src: "/gallerynewmain/24.jpg", speed: "lower last", vid: false },
 ];
 
 const HomePage = () => {
